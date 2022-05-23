@@ -91,3 +91,97 @@ function getTwoString(str1, str2) {
     }
 }
 getTwoString("shlomo", "hailoo");
+
+function getFullName(str) {
+    console.log(str.length);
+}
+getFullName("shlmoo hailo");
+
+
+function printTheLong(firstname,lastname) {
+    if (firstname.length>lastname.length) {
+        console.log(firstname);
+    }
+    else {
+        console.log(lastname);
+    }
+}
+printTheLong("shlomo","hailommm");
+
+function printTheLong(firstname, lastname) {
+   if (firstname.includes ("a")) {
+       console.log(firstname);
+   }
+  if (lastname.includes("a"+"p"+"i")){
+      return "no"
+  }
+
+
+}
+printTheLong("shalomo", "asdafapi");
+
+function toLongOrToshort(str) {
+    if (str.length > 5){
+        return "long";
+    }
+    else {
+        return "short";
+    }
+}
+toLongOrToshort("haifa");
+
+
+function nameCantry(str) {
+    if (str.length < 3) {
+        return "no";
+    }
+    else {
+        return "yes";
+    }
+}
+nameCantry("israel");
+
+
+
+function getStrAndTAV(str,index) {
+    if (str.length>6) {
+        return str;
+    }
+    else{
+        return index;
+    }
+}
+getStrAndTAV("shlomo","lo");
+
+
+
+
+function getStringAndCahrc(str,tav) {
+    if(str.includes(tav)){
+        return str.indexof(tav);
+    }
+    else{
+        return str;
+    }
+}
+getStringAndCahrc("shlomoo","o");
+
+function returnFirstNameAndLastNme(firstname, lastname) {
+    return firstname.substr(1) + "." + " " + lastname.toUpperCase();
+}
+returnFirstNameAndLastNme("shlomo", "hailo");
+
+
+
+
+function getTwoLastName(lname1, lname2) {
+    if (lname1.length > lname2.length) {
+        console.log(lname2.toLowerCase());
+        return lname1;
+    }
+   else {
+        console.log(lname1.toLowerCase());
+        return lname2;
+    }
+}
+getTwoLastName("hailo", "bery");
